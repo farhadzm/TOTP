@@ -6,7 +6,7 @@ namespace TOTP.WebApi.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : Controller
     {
         private readonly IAuthService _authService;
 
