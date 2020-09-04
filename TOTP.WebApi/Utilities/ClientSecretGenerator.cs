@@ -9,7 +9,7 @@ namespace TOTP.WebApi.Utilities
     {
         public static string CreateClientSecret()
         {
-            return Guid.NewGuid().ToString().Replace('-', ' ').Substring(0, 16);
+            return Guid.NewGuid().ToString().Replace("-", "").Substring(0, 16);
         }
     }
 }
